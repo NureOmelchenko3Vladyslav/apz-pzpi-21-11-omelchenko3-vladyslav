@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #69bbbb;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.zones-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e0f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.zones-container h2 {
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.language-switcher {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.language-switcher button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 0.875rem;
+    width: auto;
+}
+
+.language-switcher button:hover {
+    background-color: #0056b3;
+}
+
+.zones-container p {
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.zones-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.zone-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.view-trainings-button,
+.view-sensor-data-button,
+.add-zone-button,
+.edit-zone-button,
+.delete-zone-button,
+.back-button,
+.link-button {
+    background-color: #1f7a7a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.view-trainings-button:hover,
+.view-sensor-data-button:hover,
+.add-zone-button:hover,
+.edit-zone-button:hover,
+.delete-zone-button:hover,
+.back-button:hover,
+.link-button:hover {
+    background-color: #166666;
+}
+
+.add-zone-button {
+    background-color: #28a745;
+}
+
+.add-zone-button:hover {
+    background-color: #218838;
+}
+
+.edit-zone-button {
+    background-color: #006400;
+}
+
+.edit-zone-button:hover {
+    background-color: #004d00;
+}
+
+.delete-zone-button {
+    background-color: #dc3545;
+}
+
+.delete-zone-button:hover {
+    background-color: #c82333;
+}
+
+.link-button {
+    background-color: #1f7a7a;
+    margin-top: 15px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    max-width: 150px;
+    text-align: center;
+}
+
+.link-button:hover {
+    background-color: #166666;
+}

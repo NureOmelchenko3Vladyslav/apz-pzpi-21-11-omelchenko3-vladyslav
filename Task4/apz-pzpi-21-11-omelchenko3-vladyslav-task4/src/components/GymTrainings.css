@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #69bbbb;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.training-list {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e0f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.training-list h2 {
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.language-switcher {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.language-switcher button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 0.875rem;
+    width: auto;
+    display: inline-block;
+}
+
+.language-switcher button:hover {
+    background-color: #0056b3;
+}
+
+.training-list p {
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.training-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.training-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.training-list li h3 {
+    margin-top: 0;
+}
+
+.training-list button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    margin-top: 10px;
+}
+
+.training-list button:hover {
+    background-color: #218838;
+}
+
+.training-list .cancel-button {
+    background-color: #dc3545;
+}
+
+.training-list .cancel-button:hover {
+    background-color: #c82333;
+}
+
+.training-list .link-button {
+    background-color: #1f7a7a;
+    margin-top: 15px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    max-width: 130px;
+}
+
+.training-list .link-button:hover {
+    background-color: #166666;
+}
+
+.training-list .back-button {
+    background-color: #1f7a7a;
+    margin-top: 15px;
+    margin-left: 0;
+    margin-bottom: 0;
+    max-width: 130px;
+}
+
+.training-list .back-button:hover {
+    background-color: #166666;
+}

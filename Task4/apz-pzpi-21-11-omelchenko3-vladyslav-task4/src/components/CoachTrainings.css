@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #69bbbb;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.trainings-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e0f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.trainings-container h1,
+.trainings-container h2 {
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.language-switcher {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.language-switcher button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 0.875rem;
+}
+
+.language-switcher button:hover {
+    background-color: #0056b3;
+}
+
+.trainings-container p {
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.trainings-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.training-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.training-item h3 {
+    margin-top: 0;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.add-training-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.add-training-button:hover {
+    background-color: #218838;
+}
+
+.edit-training-button {
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-training-button:hover {
+    background-color: #004d00;
+}
+
+.delete-training-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    max-width: 150px;
+}
+
+.delete-training-button:hover {
+    background-color: #c82333;
+}
+
+.back-button {
+    background-color: #1f7a7a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #166666;
+}
+
+.link-button {
+    background-color: #1f7a7a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+    background-color: #166666;
+}
